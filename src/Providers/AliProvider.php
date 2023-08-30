@@ -52,7 +52,7 @@ class AliProvider extends Helper
             "PhoneNumbers"  => $this->params['phoneNumbers'],
             "SignName"      => $this->params['signName'],
             "TemplateCode"  => $this->params['templateCode'],
-            "TemplateParam" => isset($this->params['templateParam'])?$this->params['templateCode']:'',
+            "TemplateParam" => isset($this->params['templateParam'])?$this->params['templateParam']:'',
             "Action"        => "SendSms",
             "Format"        => "JSON",
             "Version"       => "2017-05-25",
