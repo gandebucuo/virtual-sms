@@ -5,13 +5,13 @@
 # 安装
 #### 使用composer命令直接安装
 ```
-composer require virtual-cloud/sms
+composer require virtual-sms/sms
 ```
 #### 或在composer.json添加包名后，执行composer install安装
 ```
 {
     "require": {
-        "virtual-cloud/sms": "dev-main"
+        "virtual-sms/sms": "dev-main"
     }
 }
 ```
