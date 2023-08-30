@@ -17,7 +17,7 @@ composer require virtual-cloud/sms
 ```
 
 # 使用方法
-#### 文件上传/删除
+#### 发送短信
 ```
 use VirtualCloud\SmsInit;
 ...
