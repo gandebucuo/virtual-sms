@@ -31,11 +31,11 @@ use VirtualCloud\SmsInit;
         "signName"      => "ABC商城",           //签名名称
         "templateCode"  => "SMS_203717462",     //模板CODE
         "templateParam" => '{"code":"123456"}', //短信参数，json格式
-    ]
+    ];
     
     $new    = SmsInit::make(Ali,$config,$params);
     //发送短信
-    $result = $new->sendSsm();
+    $result = $new->sendSms();
 ...
 ```
 #### $config 配置参数说明
